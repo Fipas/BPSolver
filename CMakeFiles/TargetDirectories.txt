@@ -1,0 +1,4 @@
+/Users/felipefonseca/Documents/PIBIC/BPSolver/CMakeFiles/docs.dir
+/Users/felipefonseca/Documents/PIBIC/BPSolver/CMakeFiles/documentation.dir
+/Users/felipefonseca/Documents/PIBIC/BPSolver/CMakeFiles/doxygen.dir
+/Users/felipefonseca/Documents/PIBIC/BPSolver/src/CMakeFiles/projectname.dir

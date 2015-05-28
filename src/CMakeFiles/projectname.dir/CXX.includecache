@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/felipefonseca/Documents/PIBIC/BPSolver/src/bsp/BSPProblemData.cpp
+iostream
+-
+fstream
+-
+vector
+-
+cmath
+-
+iomanip
+-
+bsp/BSPProblemData.h
+/Users/felipefonseca/Documents/PIBIC/BPSolver/src/bsp/bsp/BSPProblemData.h
+
+include/base/ProblemDataInterface.h
+
+include/bsp/BSPProblemData.h
+iostream
+-
+vector
+-
+base/ProblemDataInterface.h
+include/bsp/base/ProblemDataInterface.h
+

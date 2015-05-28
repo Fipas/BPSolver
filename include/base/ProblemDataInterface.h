@@ -5,8 +5,8 @@ class ProblemDataInterface {
  public:
   virtual ~ProblemDataInterface() {}
 
-  virtual void LoadData(FILE* ptr_file) = 0;
-  virtual void WriteInstanceData(FILE* ptr_file) = 0;
+  virtual void LoadData() = 0;
+  virtual void WriteInstanceData() = 0;
 };
 
 #endif
