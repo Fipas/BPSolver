@@ -1,5 +1,5 @@
-#ifndef BPSOLVER_BSP_PROBLEM_DATA_INTERFACE_H_
-#define BPSOLVER_BSP_PROBLEM_DATA_INTERFACE_H_
+#ifndef BPSOLVER_BSP_PROBLEM_DATA_H_
+#define BPSOLVER_BSP_PROBLEM_DATA_H_
 
 #include <iostream>
 #include <vector>
@@ -7,13 +7,17 @@
 
 class BSPProblemData : public ProblemDataInterface {
  public:
-  BSPProblemData();
   explicit BSPProblemData(std::string file_name);
-  explicit BSPProblemData(BSPProblemData* problem_data);
   virtual ~BSPProblemData() {}
 
   virtual void LoadData();
   virtual void WriteInstanceData();
+
+  int GetNumOfVertex() { return num_nodes_; }
+  double GetEdgeCost(int i, int j) { return cost_[i][j]; }
+  int GetVertexCapacity(int i) { return node_capacity_[i]; }
+  int GetVertexInitialState(int i) { return node_initial_state_[i]; }
+  int GetVertexTargetState(int i) { return node_target_state_[i]; }
 
  private:
   std::string file_name_;                               // Name of the file containing problem data

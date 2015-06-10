@@ -8,12 +8,12 @@ class ProblemModelInterface {
  public:
   virtual ~ProblemModelInterface() {}
 
-  virtual void SetModelData(ProblemDataInterface *problem_model) = 0;
+  virtual void SetModelData() = 0;
   virtual void Optmize() = 0;
   virtual void GetReducedCost() = 0;
   virtual bool IsIntegerSolution() = 0;
   virtual void KillNonBasicColumns() = 0;
-  virtual void AddColumn(ColumnInterface *new_column) = 0;
+  virtual void AddColumn(ColumnInterface* new_column) = 0;
 };
 
 #endif

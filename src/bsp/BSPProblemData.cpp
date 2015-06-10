@@ -7,10 +7,6 @@
 
 using namespace std;
 
-BSPProblemData::BSPProblemData() {
-
-}
-
 BSPProblemData::BSPProblemData(std::string file_name) {
   file_name_ = file_name;
 }

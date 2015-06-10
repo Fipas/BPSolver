@@ -49,9 +49,55 @@ include src/CMakeFiles/projectname.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/CMakeFiles/projectname.dir/flags.make
 
+src/CMakeFiles/projectname.dir/bsp/BSPColumn.cpp.o: src/CMakeFiles/projectname.dir/flags.make
+src/CMakeFiles/projectname.dir/bsp/BSPColumn.cpp.o: src/bsp/BSPColumn.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/felipefonseca/Documents/PIBIC/BPSolver/CMakeFiles $(CMAKE_PROGRESS_1)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/projectname.dir/bsp/BSPColumn.cpp.o"
+	cd /Users/felipefonseca/Documents/PIBIC/BPSolver/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectname.dir/bsp/BSPColumn.cpp.o -c /Users/felipefonseca/Documents/PIBIC/BPSolver/src/bsp/BSPColumn.cpp
+
+src/CMakeFiles/projectname.dir/bsp/BSPColumn.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectname.dir/bsp/BSPColumn.cpp.i"
+	cd /Users/felipefonseca/Documents/PIBIC/BPSolver/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/felipefonseca/Documents/PIBIC/BPSolver/src/bsp/BSPColumn.cpp > CMakeFiles/projectname.dir/bsp/BSPColumn.cpp.i
+
+src/CMakeFiles/projectname.dir/bsp/BSPColumn.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectname.dir/bsp/BSPColumn.cpp.s"
+	cd /Users/felipefonseca/Documents/PIBIC/BPSolver/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/felipefonseca/Documents/PIBIC/BPSolver/src/bsp/BSPColumn.cpp -o CMakeFiles/projectname.dir/bsp/BSPColumn.cpp.s
+
+src/CMakeFiles/projectname.dir/bsp/BSPColumn.cpp.o.requires:
+.PHONY : src/CMakeFiles/projectname.dir/bsp/BSPColumn.cpp.o.requires
+
+src/CMakeFiles/projectname.dir/bsp/BSPColumn.cpp.o.provides: src/CMakeFiles/projectname.dir/bsp/BSPColumn.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/projectname.dir/build.make src/CMakeFiles/projectname.dir/bsp/BSPColumn.cpp.o.provides.build
+.PHONY : src/CMakeFiles/projectname.dir/bsp/BSPColumn.cpp.o.provides
+
+src/CMakeFiles/projectname.dir/bsp/BSPColumn.cpp.o.provides.build: src/CMakeFiles/projectname.dir/bsp/BSPColumn.cpp.o
+
+src/CMakeFiles/projectname.dir/bsp/BSPColumnGenerator.cpp.o: src/CMakeFiles/projectname.dir/flags.make
+src/CMakeFiles/projectname.dir/bsp/BSPColumnGenerator.cpp.o: src/bsp/BSPColumnGenerator.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/felipefonseca/Documents/PIBIC/BPSolver/CMakeFiles $(CMAKE_PROGRESS_2)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/projectname.dir/bsp/BSPColumnGenerator.cpp.o"
+	cd /Users/felipefonseca/Documents/PIBIC/BPSolver/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectname.dir/bsp/BSPColumnGenerator.cpp.o -c /Users/felipefonseca/Documents/PIBIC/BPSolver/src/bsp/BSPColumnGenerator.cpp
+
+src/CMakeFiles/projectname.dir/bsp/BSPColumnGenerator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectname.dir/bsp/BSPColumnGenerator.cpp.i"
+	cd /Users/felipefonseca/Documents/PIBIC/BPSolver/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/felipefonseca/Documents/PIBIC/BPSolver/src/bsp/BSPColumnGenerator.cpp > CMakeFiles/projectname.dir/bsp/BSPColumnGenerator.cpp.i
+
+src/CMakeFiles/projectname.dir/bsp/BSPColumnGenerator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectname.dir/bsp/BSPColumnGenerator.cpp.s"
+	cd /Users/felipefonseca/Documents/PIBIC/BPSolver/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/felipefonseca/Documents/PIBIC/BPSolver/src/bsp/BSPColumnGenerator.cpp -o CMakeFiles/projectname.dir/bsp/BSPColumnGenerator.cpp.s
+
+src/CMakeFiles/projectname.dir/bsp/BSPColumnGenerator.cpp.o.requires:
+.PHONY : src/CMakeFiles/projectname.dir/bsp/BSPColumnGenerator.cpp.o.requires
+
+src/CMakeFiles/projectname.dir/bsp/BSPColumnGenerator.cpp.o.provides: src/CMakeFiles/projectname.dir/bsp/BSPColumnGenerator.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/projectname.dir/build.make src/CMakeFiles/projectname.dir/bsp/BSPColumnGenerator.cpp.o.provides.build
+.PHONY : src/CMakeFiles/projectname.dir/bsp/BSPColumnGenerator.cpp.o.provides
+
+src/CMakeFiles/projectname.dir/bsp/BSPColumnGenerator.cpp.o.provides.build: src/CMakeFiles/projectname.dir/bsp/BSPColumnGenerator.cpp.o
+
 src/CMakeFiles/projectname.dir/bsp/BSPProblemData.cpp.o: src/CMakeFiles/projectname.dir/flags.make
 src/CMakeFiles/projectname.dir/bsp/BSPProblemData.cpp.o: src/bsp/BSPProblemData.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/felipefonseca/Documents/PIBIC/BPSolver/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/felipefonseca/Documents/PIBIC/BPSolver/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/projectname.dir/bsp/BSPProblemData.cpp.o"
 	cd /Users/felipefonseca/Documents/PIBIC/BPSolver/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectname.dir/bsp/BSPProblemData.cpp.o -c /Users/felipefonseca/Documents/PIBIC/BPSolver/src/bsp/BSPProblemData.cpp
 
@@ -74,7 +120,7 @@ src/CMakeFiles/projectname.dir/bsp/BSPProblemData.cpp.o.provides.build: src/CMak
 
 src/CMakeFiles/projectname.dir/bsp/BSPProblemModel.cpp.o: src/CMakeFiles/projectname.dir/flags.make
 src/CMakeFiles/projectname.dir/bsp/BSPProblemModel.cpp.o: src/bsp/BSPProblemModel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/felipefonseca/Documents/PIBIC/BPSolver/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/felipefonseca/Documents/PIBIC/BPSolver/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/projectname.dir/bsp/BSPProblemModel.cpp.o"
 	cd /Users/felipefonseca/Documents/PIBIC/BPSolver/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectname.dir/bsp/BSPProblemModel.cpp.o -c /Users/felipefonseca/Documents/PIBIC/BPSolver/src/bsp/BSPProblemModel.cpp
 
@@ -95,9 +141,32 @@ src/CMakeFiles/projectname.dir/bsp/BSPProblemModel.cpp.o.provides: src/CMakeFile
 
 src/CMakeFiles/projectname.dir/bsp/BSPProblemModel.cpp.o.provides.build: src/CMakeFiles/projectname.dir/bsp/BSPProblemModel.cpp.o
 
+src/CMakeFiles/projectname.dir/bsp/BSPResources.cpp.o: src/CMakeFiles/projectname.dir/flags.make
+src/CMakeFiles/projectname.dir/bsp/BSPResources.cpp.o: src/bsp/BSPResources.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/felipefonseca/Documents/PIBIC/BPSolver/CMakeFiles $(CMAKE_PROGRESS_5)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/projectname.dir/bsp/BSPResources.cpp.o"
+	cd /Users/felipefonseca/Documents/PIBIC/BPSolver/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectname.dir/bsp/BSPResources.cpp.o -c /Users/felipefonseca/Documents/PIBIC/BPSolver/src/bsp/BSPResources.cpp
+
+src/CMakeFiles/projectname.dir/bsp/BSPResources.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projectname.dir/bsp/BSPResources.cpp.i"
+	cd /Users/felipefonseca/Documents/PIBIC/BPSolver/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/felipefonseca/Documents/PIBIC/BPSolver/src/bsp/BSPResources.cpp > CMakeFiles/projectname.dir/bsp/BSPResources.cpp.i
+
+src/CMakeFiles/projectname.dir/bsp/BSPResources.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projectname.dir/bsp/BSPResources.cpp.s"
+	cd /Users/felipefonseca/Documents/PIBIC/BPSolver/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/felipefonseca/Documents/PIBIC/BPSolver/src/bsp/BSPResources.cpp -o CMakeFiles/projectname.dir/bsp/BSPResources.cpp.s
+
+src/CMakeFiles/projectname.dir/bsp/BSPResources.cpp.o.requires:
+.PHONY : src/CMakeFiles/projectname.dir/bsp/BSPResources.cpp.o.requires
+
+src/CMakeFiles/projectname.dir/bsp/BSPResources.cpp.o.provides: src/CMakeFiles/projectname.dir/bsp/BSPResources.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/projectname.dir/build.make src/CMakeFiles/projectname.dir/bsp/BSPResources.cpp.o.provides.build
+.PHONY : src/CMakeFiles/projectname.dir/bsp/BSPResources.cpp.o.provides
+
+src/CMakeFiles/projectname.dir/bsp/BSPResources.cpp.o.provides.build: src/CMakeFiles/projectname.dir/bsp/BSPResources.cpp.o
+
 src/CMakeFiles/projectname.dir/main.cpp.o: src/CMakeFiles/projectname.dir/flags.make
 src/CMakeFiles/projectname.dir/main.cpp.o: src/main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/felipefonseca/Documents/PIBIC/BPSolver/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/felipefonseca/Documents/PIBIC/BPSolver/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/projectname.dir/main.cpp.o"
 	cd /Users/felipefonseca/Documents/PIBIC/BPSolver/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/projectname.dir/main.cpp.o -c /Users/felipefonseca/Documents/PIBIC/BPSolver/src/main.cpp
 
@@ -120,15 +189,21 @@ src/CMakeFiles/projectname.dir/main.cpp.o.provides.build: src/CMakeFiles/project
 
 # Object files for target projectname
 projectname_OBJECTS = \
+"CMakeFiles/projectname.dir/bsp/BSPColumn.cpp.o" \
+"CMakeFiles/projectname.dir/bsp/BSPColumnGenerator.cpp.o" \
 "CMakeFiles/projectname.dir/bsp/BSPProblemData.cpp.o" \
 "CMakeFiles/projectname.dir/bsp/BSPProblemModel.cpp.o" \
+"CMakeFiles/projectname.dir/bsp/BSPResources.cpp.o" \
 "CMakeFiles/projectname.dir/main.cpp.o"
 
 # External object files for target projectname
 projectname_EXTERNAL_OBJECTS =
 
+bin/projectname-1.0: src/CMakeFiles/projectname.dir/bsp/BSPColumn.cpp.o
+bin/projectname-1.0: src/CMakeFiles/projectname.dir/bsp/BSPColumnGenerator.cpp.o
 bin/projectname-1.0: src/CMakeFiles/projectname.dir/bsp/BSPProblemData.cpp.o
 bin/projectname-1.0: src/CMakeFiles/projectname.dir/bsp/BSPProblemModel.cpp.o
+bin/projectname-1.0: src/CMakeFiles/projectname.dir/bsp/BSPResources.cpp.o
 bin/projectname-1.0: src/CMakeFiles/projectname.dir/main.cpp.o
 bin/projectname-1.0: src/CMakeFiles/projectname.dir/build.make
 bin/projectname-1.0: /usr/local/lib/libboost_date_time-mt.dylib
@@ -153,8 +228,11 @@ bin/projectname: bin/projectname-1.0
 src/CMakeFiles/projectname.dir/build: bin/projectname
 .PHONY : src/CMakeFiles/projectname.dir/build
 
+src/CMakeFiles/projectname.dir/requires: src/CMakeFiles/projectname.dir/bsp/BSPColumn.cpp.o.requires
+src/CMakeFiles/projectname.dir/requires: src/CMakeFiles/projectname.dir/bsp/BSPColumnGenerator.cpp.o.requires
 src/CMakeFiles/projectname.dir/requires: src/CMakeFiles/projectname.dir/bsp/BSPProblemData.cpp.o.requires
 src/CMakeFiles/projectname.dir/requires: src/CMakeFiles/projectname.dir/bsp/BSPProblemModel.cpp.o.requires
+src/CMakeFiles/projectname.dir/requires: src/CMakeFiles/projectname.dir/bsp/BSPResources.cpp.o.requires
 src/CMakeFiles/projectname.dir/requires: src/CMakeFiles/projectname.dir/main.cpp.o.requires
 .PHONY : src/CMakeFiles/projectname.dir/requires
 

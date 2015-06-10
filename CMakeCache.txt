@@ -276,7 +276,9 @@ CPLEX_INCLUDE_DIR:PATH=/Users/felipefonseca/Applications/IBM/ILOG/CPLEX_Studio_P
 CPLEX_LIBRARY:FILEPATH=/Users/felipefonseca/Applications/IBM/ILOG/CPLEX_Studio_Preview1261/cplex/lib/x86-64_osx/static_pic/libcplex.a
 
 //Graphviz Dot tool for using Doxygen
-DOXYGEN_DOT_EXECUTABLE:FILEPATH=DOXYGEN_DOT_EXECUTABLE-NOTFOUND
+DOXYGEN_DOT_EXECUTABLE:FILEPATH=/usr/local/bin/dot
+
+DOXYGEN_DOT_PATH:FILEPATH=/usr/local/bin
 
 //Doxygen documentation generation tool (http://www.doxygen.org)
 DOXYGEN_EXECUTABLE:FILEPATH=/usr/local/bin/doxygen
@@ -479,6 +481,8 @@ CPLEX_INCLUDE_DIR-ADVANCED:INTERNAL=1
 CPLEX_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: DOXYGEN_DOT_EXECUTABLE
 DOXYGEN_DOT_EXECUTABLE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: DOXYGEN_DOT_PATH
+DOXYGEN_DOT_PATH-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: DOXYGEN_EXECUTABLE
 DOXYGEN_EXECUTABLE-ADVANCED:INTERNAL=1
 //Details about finding CPLEX

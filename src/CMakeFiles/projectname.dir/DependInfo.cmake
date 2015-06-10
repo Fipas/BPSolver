@@ -4,8 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/felipefonseca/Documents/PIBIC/BPSolver/src/bsp/BSPColumn.cpp" "/Users/felipefonseca/Documents/PIBIC/BPSolver/src/CMakeFiles/projectname.dir/bsp/BSPColumn.cpp.o"
+  "/Users/felipefonseca/Documents/PIBIC/BPSolver/src/bsp/BSPColumnGenerator.cpp" "/Users/felipefonseca/Documents/PIBIC/BPSolver/src/CMakeFiles/projectname.dir/bsp/BSPColumnGenerator.cpp.o"
   "/Users/felipefonseca/Documents/PIBIC/BPSolver/src/bsp/BSPProblemData.cpp" "/Users/felipefonseca/Documents/PIBIC/BPSolver/src/CMakeFiles/projectname.dir/bsp/BSPProblemData.cpp.o"
   "/Users/felipefonseca/Documents/PIBIC/BPSolver/src/bsp/BSPProblemModel.cpp" "/Users/felipefonseca/Documents/PIBIC/BPSolver/src/CMakeFiles/projectname.dir/bsp/BSPProblemModel.cpp.o"
+  "/Users/felipefonseca/Documents/PIBIC/BPSolver/src/bsp/BSPResources.cpp" "/Users/felipefonseca/Documents/PIBIC/BPSolver/src/CMakeFiles/projectname.dir/bsp/BSPResources.cpp.o"
   "/Users/felipefonseca/Documents/PIBIC/BPSolver/src/main.cpp" "/Users/felipefonseca/Documents/PIBIC/BPSolver/src/CMakeFiles/projectname.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")

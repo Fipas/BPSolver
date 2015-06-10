@@ -157,6 +157,54 @@ projectname/fast:
 	cd /Users/felipefonseca/Documents/PIBIC/BPSolver && $(MAKE) -f src/CMakeFiles/projectname.dir/build.make src/CMakeFiles/projectname.dir/build
 .PHONY : projectname/fast
 
+bsp/BSPColumn.o: bsp/BSPColumn.cpp.o
+.PHONY : bsp/BSPColumn.o
+
+# target to build an object file
+bsp/BSPColumn.cpp.o:
+	cd /Users/felipefonseca/Documents/PIBIC/BPSolver && $(MAKE) -f src/CMakeFiles/projectname.dir/build.make src/CMakeFiles/projectname.dir/bsp/BSPColumn.cpp.o
+.PHONY : bsp/BSPColumn.cpp.o
+
+bsp/BSPColumn.i: bsp/BSPColumn.cpp.i
+.PHONY : bsp/BSPColumn.i
+
+# target to preprocess a source file
+bsp/BSPColumn.cpp.i:
+	cd /Users/felipefonseca/Documents/PIBIC/BPSolver && $(MAKE) -f src/CMakeFiles/projectname.dir/build.make src/CMakeFiles/projectname.dir/bsp/BSPColumn.cpp.i
+.PHONY : bsp/BSPColumn.cpp.i
+
+bsp/BSPColumn.s: bsp/BSPColumn.cpp.s
+.PHONY : bsp/BSPColumn.s
+
+# target to generate assembly for a file
+bsp/BSPColumn.cpp.s:
+	cd /Users/felipefonseca/Documents/PIBIC/BPSolver && $(MAKE) -f src/CMakeFiles/projectname.dir/build.make src/CMakeFiles/projectname.dir/bsp/BSPColumn.cpp.s
+.PHONY : bsp/BSPColumn.cpp.s
+
+bsp/BSPColumnGenerator.o: bsp/BSPColumnGenerator.cpp.o
+.PHONY : bsp/BSPColumnGenerator.o
+
+# target to build an object file
+bsp/BSPColumnGenerator.cpp.o:
+	cd /Users/felipefonseca/Documents/PIBIC/BPSolver && $(MAKE) -f src/CMakeFiles/projectname.dir/build.make src/CMakeFiles/projectname.dir/bsp/BSPColumnGenerator.cpp.o
+.PHONY : bsp/BSPColumnGenerator.cpp.o
+
+bsp/BSPColumnGenerator.i: bsp/BSPColumnGenerator.cpp.i
+.PHONY : bsp/BSPColumnGenerator.i
+
+# target to preprocess a source file
+bsp/BSPColumnGenerator.cpp.i:
+	cd /Users/felipefonseca/Documents/PIBIC/BPSolver && $(MAKE) -f src/CMakeFiles/projectname.dir/build.make src/CMakeFiles/projectname.dir/bsp/BSPColumnGenerator.cpp.i
+.PHONY : bsp/BSPColumnGenerator.cpp.i
+
+bsp/BSPColumnGenerator.s: bsp/BSPColumnGenerator.cpp.s
+.PHONY : bsp/BSPColumnGenerator.s
+
+# target to generate assembly for a file
+bsp/BSPColumnGenerator.cpp.s:
+	cd /Users/felipefonseca/Documents/PIBIC/BPSolver && $(MAKE) -f src/CMakeFiles/projectname.dir/build.make src/CMakeFiles/projectname.dir/bsp/BSPColumnGenerator.cpp.s
+.PHONY : bsp/BSPColumnGenerator.cpp.s
+
 bsp/BSPProblemData.o: bsp/BSPProblemData.cpp.o
 .PHONY : bsp/BSPProblemData.o
 
@@ -205,6 +253,30 @@ bsp/BSPProblemModel.cpp.s:
 	cd /Users/felipefonseca/Documents/PIBIC/BPSolver && $(MAKE) -f src/CMakeFiles/projectname.dir/build.make src/CMakeFiles/projectname.dir/bsp/BSPProblemModel.cpp.s
 .PHONY : bsp/BSPProblemModel.cpp.s
 
+bsp/BSPResources.o: bsp/BSPResources.cpp.o
+.PHONY : bsp/BSPResources.o
+
+# target to build an object file
+bsp/BSPResources.cpp.o:
+	cd /Users/felipefonseca/Documents/PIBIC/BPSolver && $(MAKE) -f src/CMakeFiles/projectname.dir/build.make src/CMakeFiles/projectname.dir/bsp/BSPResources.cpp.o
+.PHONY : bsp/BSPResources.cpp.o
+
+bsp/BSPResources.i: bsp/BSPResources.cpp.i
+.PHONY : bsp/BSPResources.i
+
+# target to preprocess a source file
+bsp/BSPResources.cpp.i:
+	cd /Users/felipefonseca/Documents/PIBIC/BPSolver && $(MAKE) -f src/CMakeFiles/projectname.dir/build.make src/CMakeFiles/projectname.dir/bsp/BSPResources.cpp.i
+.PHONY : bsp/BSPResources.cpp.i
+
+bsp/BSPResources.s: bsp/BSPResources.cpp.s
+.PHONY : bsp/BSPResources.s
+
+# target to generate assembly for a file
+bsp/BSPResources.cpp.s:
+	cd /Users/felipefonseca/Documents/PIBIC/BPSolver && $(MAKE) -f src/CMakeFiles/projectname.dir/build.make src/CMakeFiles/projectname.dir/bsp/BSPResources.cpp.s
+.PHONY : bsp/BSPResources.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -242,12 +314,21 @@ help:
 	@echo "... list_install_components"
 	@echo "... projectname"
 	@echo "... rebuild_cache"
+	@echo "... bsp/BSPColumn.o"
+	@echo "... bsp/BSPColumn.i"
+	@echo "... bsp/BSPColumn.s"
+	@echo "... bsp/BSPColumnGenerator.o"
+	@echo "... bsp/BSPColumnGenerator.i"
+	@echo "... bsp/BSPColumnGenerator.s"
 	@echo "... bsp/BSPProblemData.o"
 	@echo "... bsp/BSPProblemData.i"
 	@echo "... bsp/BSPProblemData.s"
 	@echo "... bsp/BSPProblemModel.o"
 	@echo "... bsp/BSPProblemModel.i"
 	@echo "... bsp/BSPProblemModel.s"
+	@echo "... bsp/BSPResources.o"
+	@echo "... bsp/BSPResources.i"
+	@echo "... bsp/BSPResources.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

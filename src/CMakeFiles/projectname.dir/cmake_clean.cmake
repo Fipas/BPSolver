@@ -1,6 +1,9 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/projectname.dir/bsp/BSPColumn.cpp.o"
+  "CMakeFiles/projectname.dir/bsp/BSPColumnGenerator.cpp.o"
   "CMakeFiles/projectname.dir/bsp/BSPProblemData.cpp.o"
   "CMakeFiles/projectname.dir/bsp/BSPProblemModel.cpp.o"
+  "CMakeFiles/projectname.dir/bsp/BSPResources.cpp.o"
   "CMakeFiles/projectname.dir/main.cpp.o"
   "../bin/projectname.pdb"
   "../bin/projectname"
